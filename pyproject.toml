@@ -1,0 +1,9 @@
+[project]
+name = "london-cycle-hire"
+version = "0.1.0"
+description = "AWS data lake pipeline for TfL cycle hire data"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
